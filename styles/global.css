@@ -1,0 +1,41 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  @apply p-4;
+}
+
+.navbar.light {
+  @apply bg-white text-black;
+}
+
+.navbar.dark {
+  @apply bg-black text-white;
+}
+
+.navbar.midnight {
+  @apply bg-gray-900 text-white;
+}
+
+.navbar.redBlack {
+  @apply bg-red-700 text-black;
+}
+
+/* Additional styles for other components */
+body.light {
+  @apply bg-gray-100;
+}
+
+body.dark {
+  @apply bg-gray-800;
+}
+
+body.midnight {
+  @apply bg-black;
+}
+
+body.redBlack {
+  @apply bg-gray-900 text-red-500;
+}
